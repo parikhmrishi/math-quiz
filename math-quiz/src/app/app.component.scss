@@ -1,0 +1,29 @@
+.mobile-show {
+    display: none;
+}
+
+.mobile-hide {
+    display: inline;
+    font-size: 2em;
+    opacity: 50%
+}
+
+@media only screen and (max-device-width : 480px) {
+    .mobile-show {
+        display: inline;
+    }
+    .mobile-hide {
+        display: none;
+    }
+
+    .number {
+        padding: 0 1rem;
+    }
+
+    select:focus {
+        outline: none !important;
+        box-shadow: none;
+        border: 1px solid #ced4da;
+    }
+
+}
